@@ -1,0 +1,6 @@
+
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_bustri0.tdf
+
+Sep 24 10AM:28:33>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

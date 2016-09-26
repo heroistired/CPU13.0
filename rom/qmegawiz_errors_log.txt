@@ -1,0 +1,121 @@
+
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:28:45>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:28:49>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:28:52>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:00>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:00>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:01>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:08>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:10>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:10>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:11>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:15>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:29:20>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:05>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:19>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:19>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:20>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:21>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:22>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:42>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:37:52>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:38:02>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:38:06>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:38:15>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+
+Sep 24 10PM:40:23>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
