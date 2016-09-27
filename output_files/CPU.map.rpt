@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CPU
-Mon Sep 26 21:24:06 2016
+Tue Sep 27 22:21:02 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -62,15 +62,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 26 21:24:06 2016           ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 27 22:21:02 2016           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; CPU                                             ;
 ; Top-level Entity Name              ; systemA                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 241                                             ;
-;     Total combinational functions  ; 217                                             ;
-;     Dedicated logic registers      ; 42                                              ;
-; Total registers                    ; 42                                              ;
+; Total logic elements               ; 245                                             ;
+;     Total combinational functions  ; 221                                             ;
+;     Dedicated logic registers      ; 44                                              ;
+; Total registers                    ; 44                                              ;
 ; Total pins                         ; 107                                             ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 6,144                                           ;
@@ -179,6 +179,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                                                         ; Library ;
 +----------------------------------+-----------------+---------------------------------------+------------------------------------------------------------------------------------------------------+---------+
+; waitAclock.v                     ; yes             ; User Verilog HDL File                 ; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/waitAclock.v                ;         ;
 ; systemA.bdf                      ; yes             ; User Block Diagram/Schematic File     ; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemA.bdf                 ;         ;
 ; rom/lpm_rom_256_16.vhd           ; yes             ; User Wizard-Generated File            ; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd      ;         ;
 ; systemA.hex                      ; yes             ; User Hexadecimal (Intel-Format) File  ; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemA.hex                 ;         ;
@@ -225,29 +226,29 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 241   ;
+; Estimated Total logic elements              ; 245   ;
 ;                                             ;       ;
-; Total combinational functions               ; 217   ;
+; Total combinational functions               ; 221   ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 74    ;
-;     -- 3 input functions                    ; 117   ;
-;     -- <=2 input functions                  ; 26    ;
+;     -- 3 input functions                    ; 119   ;
+;     -- <=2 input functions                  ; 28    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 173   ;
+;     -- normal mode                          ; 177   ;
 ;     -- arithmetic mode                      ; 44    ;
 ;                                             ;       ;
-; Total registers                             ; 42    ;
-;     -- Dedicated logic registers            ; 42    ;
+; Total registers                             ; 44    ;
+;     -- Dedicated logic registers            ; 44    ;
 ;     -- I/O registers                        ; 0     ;
 ;                                             ;       ;
 ; I/O pins                                    ; 107   ;
 ; Total memory bits                           ; 6144  ;
 ; Embedded Multiplier 9-bit elements          ; 0     ;
 ; Maximum fan-out node                        ; CLK   ;
-; Maximum fan-out                             ; 66    ;
-; Total fan-out                               ; 1178  ;
-; Average fan-out                             ; 3.02  ;
+; Maximum fan-out                             ; 61    ;
+; Total fan-out                               ; 1192  ;
+; Average fan-out                             ; 3.01  ;
 +---------------------------------------------+-------+
 
 
@@ -256,7 +257,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                 ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                 ; Library Name ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
-; |systemA                                   ; 217 (0)           ; 42 (0)       ; 6144        ; 0            ; 0       ; 0         ; 107  ; 0            ; |systemA                                                                                            ; work         ;
+; |systemA                                   ; 221 (0)           ; 44 (0)       ; 6144        ; 0            ; 0       ; 0         ; 107  ; 0            ; |systemA                                                                                            ; work         ;
 ;    |Flag:inst6|                            ; 3 (3)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|Flag:inst6                                                                                 ; work         ;
 ;    |ctrlunit:inst|                         ; 41 (41)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|ctrlunit:inst                                                                              ; work         ;
 ;    |instrconunit:inst1|                    ; 25 (25)           ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|instrconunit:inst1                                                                         ; work         ;
@@ -294,6 +295,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |lpm_mux2_4_8:inst2|                 ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|reg4_8:inst14|lpm_mux2_4_8:inst2                                                           ; work         ;
 ;          |lpm_mux:lpm_mux_component|       ; 16 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|reg4_8:inst14|lpm_mux2_4_8:inst2|lpm_mux:lpm_mux_component                                 ; work         ;
 ;             |mux_vmc:auto_generated|       ; 16 (16)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|reg4_8:inst14|lpm_mux2_4_8:inst2|lpm_mux:lpm_mux_component|mux_vmc:auto_generated          ; work         ;
+;    |waitAclock:inst2|                      ; 4 (4)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |systemA|waitAclock:inst2                                                                           ; work         ;
 +--------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -328,33 +330,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-------------------------------------------+---------------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                   ;
-+-----------------------------------------------------+------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal    ; Free of Timing Hazards ;
-+-----------------------------------------------------+------------------------+------------------------+
-; ctrlunit:inst|WriteMem                              ; GND                    ; yes                    ;
-; myALU:inst17|carry_out                              ; myALU:inst17|carry_out ; yes                    ;
-; myALU:inst17|RESULT[6]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[5]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[4]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[3]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[2]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[1]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[0]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; myALU:inst17|RESULT[7]                              ; myALU:inst17|RESULT[7] ; yes                    ;
-; ctrlunit:inst|WrFlag                                ; GND                    ; yes                    ;
-; ctrlunit:inst|ALUC[2]                               ; GND                    ; yes                    ;
-; ctrlunit:inst|ALUC[1]                               ; GND                    ; yes                    ;
-; ctrlunit:inst|ALUC[0]                               ; GND                    ; yes                    ;
-; ctrlunit:inst|WriteReg                              ; GND                    ; yes                    ;
-; ctrlunit:inst|MemToReg                              ; GND                    ; yes                    ;
-; ctrlunit:inst|branch                                ; ctrlunit:inst|jump     ; yes                    ;
-; ctrlunit:inst|jump                                  ; GND                    ; yes                    ;
-; ctrlunit:inst|RegDes                                ; GND                    ; yes                    ;
-; ctrlunit:inst|ALUSRCB                               ; GND                    ; yes                    ;
-; Number of user-specified and inferred latches = 20  ;                        ;                        ;
-+-----------------------------------------------------+------------------------+------------------------+
++---------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                     ;
++-----------------------------------------------------+--------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal      ; Free of Timing Hazards ;
++-----------------------------------------------------+--------------------------+------------------------+
+; ctrlunit:inst|WriteMem                              ; GND                      ; yes                    ;
+; myALU:inst17|carry_out                              ; myALU:inst17|carry_out   ; yes                    ;
+; myALU:inst17|RESULT[6]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[5]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[4]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[3]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[2]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[1]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[0]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; myALU:inst17|RESULT[7]                              ; myALU:inst17|RESULT[7]   ; yes                    ;
+; ctrlunit:inst|WrFlag                                ; GND                      ; yes                    ;
+; ctrlunit:inst|ALUC[2]                               ; GND                      ; yes                    ;
+; ctrlunit:inst|ALUC[1]                               ; GND                      ; yes                    ;
+; ctrlunit:inst|ALUC[0]                               ; GND                      ; yes                    ;
+; ctrlunit:inst|WriteReg                              ; GND                      ; yes                    ;
+; ctrlunit:inst|MemToReg                              ; GND                      ; yes                    ;
+; ctrlunit:inst|branch                                ; ctrlunit:inst|jump       ; yes                    ;
+; ctrlunit:inst|jump                                  ; GND                      ; yes                    ;
+; ctrlunit:inst|RegDes                                ; GND                      ; yes                    ;
+; ctrlunit:inst|ALUSRCB                               ; GND                      ; yes                    ;
+; waitAclock:inst2|clk_out                            ; waitAclock:inst2|clk_out ; yes                    ;
+; Number of user-specified and inferred latches = 21  ;                          ;                        ;
++-----------------------------------------------------+--------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -374,7 +377,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 42    ;
+; Total registers                              ; 44    ;
 ; Number of registers using Synchronous Clear  ; 8     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 32    ;
@@ -390,8 +393,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |systemA|Flag:inst6|Flagout[1]    ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |systemA|instrconunit:inst1|PC[2] ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 28 LEs               ; 7 LEs                  ; No         ; |systemA|myALU:inst17|RESULT[7]   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |systemA|instrconunit:inst1|PC[4] ;
+; 8:1                ; 7 bits    ; 35 LEs        ; 28 LEs               ; 7 LEs                  ; No         ; |systemA|myALU:inst17|RESULT[1]   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
 
 
@@ -771,9 +774,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Sep 26 21:24:03 2016
+    Info: Processing started: Tue Sep 27 22:20:59 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
 Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file waitaclock.v
+    Info (12023): Found entity 1: waitAclock
 Info (12021): Found 1 design units, including 1 entities, in source file systema.bdf
     Info (12023): Found entity 1: systemA
 Info (12021): Found 2 design units, including 1 entities, in source file rom/lpm_rom_256_16.vhd
@@ -966,6 +971,10 @@ Info (12128): Elaborating entity "altsyncram_o641" for hierarchy "lpm_rom_256_16
 Info (12128): Elaborating entity "instrconunit" for hierarchy "instrconunit:inst1"
 Warning (10230): Verilog HDL assignment warning at instrconunit.v(19): truncated value with size 32 to match size of target (8)
 Warning (10230): Verilog HDL assignment warning at instrconunit.v(29): truncated value with size 32 to match size of target (8)
+Info (12128): Elaborating entity "waitAclock" for hierarchy "waitAclock:inst2"
+Warning (10230): Verilog HDL assignment warning at waitAclock.v(9): truncated value with size 32 to match size of target (2)
+Warning (10240): Verilog HDL Always Construct warning at waitAclock.v(16): inferring latch(es) for variable "clk_out", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "clk_out" at waitAclock.v(23)
 Info (12128): Elaborating entity "lpm_mux2" for hierarchy "lpm_mux2:inst20"
 Info (12128): Elaborating entity "lpm_mux" for hierarchy "lpm_mux2:inst20|lpm_mux:LPM_MUX_component"
 Info (12130): Elaborated megafunction instantiation "lpm_mux2:inst20|lpm_mux:LPM_MUX_component"
@@ -1014,14 +1023,14 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (144001): Generated suppressed messages file C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/output_files/CPU.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 380 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 384 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 105 output pins
-    Info (21061): Implemented 249 logic cells
+    Info (21061): Implemented 253 logic cells
     Info (21064): Implemented 24 RAM segments
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 53 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 55 warnings
     Info: Peak virtual memory: 505 megabytes
-    Info: Processing ended: Mon Sep 26 21:24:06 2016
+    Info: Processing ended: Tue Sep 27 22:21:02 2016
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

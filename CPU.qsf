@@ -49,6 +49,7 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE waitAclock.v
 set_global_assignment -name BDF_FILE systemA.bdf
 set_global_assignment -name HEX_FILE rom/test.hex
 set_global_assignment -name VHDL_FILE rom/lpm_rom_256_16.vhd

@@ -1,0 +1,26 @@
+module waitAclock(memtoreg, clk_in, clk_out);
+	input memtoreg, clk_in;
+	output reg clk_out;
+	reg[1:0] counter = 0;
+	
+	always@(posedge clk_in)
+	begin 
+		if(memtoreg)
+			counter = counter + 1;
+		else 
+			counter = 0;
+	end
+	
+	always 
+	begin
+		if(memtoreg)
+		begin
+			if(counter <= 1) ;
+			else
+				clk_out = clk_in;
+		end
+		else 
+			clk_out = clk_in;
+	end
+endmodule
+				

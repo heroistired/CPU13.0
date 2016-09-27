@@ -12,9 +12,9 @@ flagout[6] <= Flag:inst6.Flagout[6]
 flagout[7] <= Flag:inst6.Flagout[7]
 CLK => Flag:inst6.CLK
 CLK => reg4_8:inst14.CLK
-CLK => inst13.IN0
+CLK => myram_256_8:inst16.clock
 CLK => inst7.IN0
-CLK => instrconunit:inst1.clk
+CLK => waitAclock:inst2.clk_in
 RST => Flag:inst6.Reset
 RST => inst4.IN0
 RST => instrconunit:inst1.reset
@@ -1761,6 +1761,16 @@ PC[4] <= PC[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 PC[5] <= PC[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 PC[6] <= PC[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 PC[7] <= PC[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|systemA|waitAclock:inst2
+memtoreg => counter~0.OUTPUTSELECT
+memtoreg => counter~1.OUTPUTSELECT
+memtoreg => clk_out~0.IN1
+clk_in => counter[0].CLK
+clk_in => counter[1].CLK
+clk_in => clk_out$latch.DATAIN
+clk_out <= clk_out$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |systemA|lpm_mux2:inst20
