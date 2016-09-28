@@ -1,0 +1,27 @@
+module IOhold(IO0, IO1, address, reset, writemem, data_inH, data_inL);
+	input [7..0] IO0, IO1, address;
+	input reset, writemem;
+	output reg [7..0] data_inH, data_inL;
+	
+	always
+	begin
+		if(reset && writemem)
+		begin
+			if(address == 8'h00)
+				data_inL = IO0;
+			else
+				data_inL = data_inL;
+				
+			if(address == 8'h01)
+				data_inH = IO1;
+			else
+				data_inH = data_inH;
+		end
+		else begin
+			data_inH = 0;
+			data_inL = 0;
+		end
+	end
+endmodule
+				
+	
