@@ -54,8 +54,8 @@ applicable agreement for further details.
 	(port
 		(pt 184 64)
 		(output)
-		(text "ALUC[2..0]" (rect 0 0 48 12)(font "Arial" ))
-		(text "ALUC[2..0]" (rect 115 59 163 71)(font "Arial" ))
+		(text "ALUC[3..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "ALUC[3..0]" (rect 115 59 163 71)(font "Arial" ))
 		(line (pt 184 64)(pt 168 64)(line_width 3))
 	)
 	(port

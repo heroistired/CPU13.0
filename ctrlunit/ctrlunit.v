@@ -3,7 +3,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	input zero;
 	output reg jump;
 	output reg branch;
-	output reg [2:0]ALUC;
+	output reg [3:0]ALUC;
 	output reg ALUSRCB;
 	output reg WriteMem;
 	output reg WriteReg;
@@ -17,7 +17,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //and
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b000;
+		ALUC = 4'b0000;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -29,7 +29,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //or 
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b001;
+		ALUC = 4'b0001;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -41,7 +41,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //add
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b010;
+		ALUC = 4'b0010;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -53,7 +53,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //sub
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b011;
+		ALUC = 4'b0011;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -65,7 +65,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //addc
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b100;
+		ALUC = 4'b0100;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -77,7 +77,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //subc
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b101;
+		ALUC = 4'b0101;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -89,7 +89,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //slt
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b110;
+		ALUC = 4'b0110;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -101,7 +101,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //jmp
 		jump = 1;
 		branch = 0;
-		ALUC = 3'b111;
+		ALUC = 4'b0111;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 0;
@@ -113,7 +113,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //andi
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b000;
+		ALUC = 4'b0000;
 		ALUSRCB = 1;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -125,7 +125,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //ori
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b001;
+		ALUC = 4'b0001;
 		ALUSRCB = 1;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -137,7 +137,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //addi
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b010;
+		ALUC = 4'b0010;
 		ALUSRCB = 1;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -149,7 +149,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //lw
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b010;
+		ALUC = 4'b0010;
 		ALUSRCB = 1;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -161,7 +161,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 	begin //sw
 		jump = 0;
 		branch = 0;
-		ALUC = 3'b010;
+		ALUC = 4'b0010;
 		ALUSRCB = 1;
 		WriteMem = 1;
 		WriteReg = 0;
@@ -180,7 +180,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 		begin
 			branch = 0;
 		end
-		ALUC = 3'b011;
+		ALUC = 4'b0011;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
@@ -199,13 +199,25 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 		begin
 			branch = 0;
 		end
-		ALUC = 3'b011;
+		ALUC = 4'b0011;
 		ALUSRCB = 0;
 		WriteMem = 0;
 		WriteReg = 1;
 		MemToReg = 0;
 		RegDes = 0;
 		WrFlag = 0;
+	end
+	else if (OP==4'b1111) 
+	begin //mul
+		jump = 0;
+		branch = 0;
+		ALUC = 4'b1000;
+		ALUSRCB = 0;
+		WriteMem = 0;
+		WriteReg = 1;
+		MemToReg = 0;
+		RegDes = 1;
+		WrFlag = 1;
 	end
 	end
 endmodule
