@@ -1,5 +1,5 @@
 EDA Netlist Writer report for CPU
-Mon Sep 26 20:57:23 2016
+Sat Oct 01 16:10:40 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Sep 26 20:57:23 2016 ;
+; EDA Netlist Writer Status ; Successful - Sat Oct 01 16:10:40 2016 ;
 ; Revision Name             ; CPU                                   ;
-; Top-level Entity Name     ; test                                  ;
+; Top-level Entity Name     ; systemB                               ;
 ; Family                    ; Cyclone II                            ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -80,13 +80,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Sep 26 20:57:22 2016
+    Info: Processing started: Sat Oct 01 16:10:39 2016
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog CPU -c CPU
-Info (119004): Automatically selected device EP2C5T144C6 for design CPU
+Info (119004): Automatically selected device EP2C15AF484C6 for design CPU
+Info (119005): Fitting design with smaller device may be possible, but smaller device must be specified
 Info (204019): Generated file CPU.vo in folder "C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 389 megabytes
-    Info: Processing ended: Mon Sep 26 20:57:23 2016
+    Info: Processing ended: Sat Oct 01 16:10:40 2016
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

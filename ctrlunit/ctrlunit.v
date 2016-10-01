@@ -183,7 +183,7 @@ module ctrlunit(OP, zero, jump, branch, ALUC, ALUSRCB, WriteMem, WriteReg, MemTo
 		ALUC = 4'b0011;
 		ALUSRCB = 0;
 		WriteMem = 0;
-		WriteReg = 1;
+		WriteReg = 0;
 		MemToReg = 0;
 		RegDes = 0;
 		WrFlag = 0;
