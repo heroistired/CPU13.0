@@ -1,5 +1,5 @@
 Flow report for CPU
-Sat Oct 01 16:31:34 2016
+Wed Oct 05 19:36:03 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,20 +40,22 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sat Oct 01 16:31:34 2016           ;
+; Flow Status                        ; Flow Failed - Wed Oct 05 19:36:02 2016          ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; CPU                                             ;
 ; Top-level Entity Name              ; systemB                                         ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 1,036                                           ;
-;     Total combinational functions  ; 1,012                                           ;
-;     Dedicated logic registers      ; 63                                              ;
-; Total registers                    ; 63                                              ;
-; Total pins                         ; 157                                             ;
+; Device                             ; EP2C5Q208C8                                     ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 1,062 / 4,608 ( 23 % )                          ;
+;     Total combinational functions  ; 1,033 / 4,608 ( 22 % )                          ;
+;     Dedicated logic registers      ; 82 / 4,608 ( 2 % )                              ;
+; Total registers                    ; 82                                              ;
+; Total pins                         ; 169 / 142 ( 119 % )                             ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 6,144                                           ;
-; Embedded Multiplier 9-bit elements ; 1                                               ;
-; Total PLLs                         ; 0                                               ;
+; Total memory bits                  ; 6,144 / 119,808 ( 5 % )                         ;
+; Embedded Multiplier 9-bit elements ; 1 / 26 ( 4 % )                                  ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -62,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/01/2016 16:31:28 ;
+; Start date & time ; 10/05/2016 19:35:40 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU                 ;
 +-------------------+---------------------+
@@ -73,13 +75,15 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 53027351190172.147531068803684 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 53027351190172.147566733908104 ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                             ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                           ; --            ; --          ; eda_simulation ;
 ; IP_TOOL_NAME                        ; ROM: 1-PORT                    ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                     ; 13.0                           ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                              ; --            ; --          ; --             ;
 ; MISC_FILE                           ; myrom/myrom_bb.v               ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                       ; --            ; systemB     ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; systemB     ; Top            ;
@@ -94,8 +98,9 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 564 MB              ; 00:00:06                           ;
-; Total                ; 00:00:06     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 566 MB              ; 00:00:05                           ;
+; Fitter               ; 00:00:16     ; 1.0                     ; 556 MB              ; 00:00:02                           ;
+; Total                ; 00:00:22     ; --                      ; --                  ; 00:00:07                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -105,6 +110,7 @@ applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +----------------------+------------------+-----------+------------+----------------+
 ; Analysis & Synthesis ; hero             ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter               ; hero             ; Windows 7 ; 6.2        ; x86_64         ;
 +----------------------+------------------+-----------+------------+----------------+
 
 
@@ -112,6 +118,7 @@ applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off CPU -c CPU
+quartus_fit --read_settings_files=off --write_settings_files=off CPU -c CPU
 
 
 

@@ -1,5 +1,7 @@
 
-State Machine - |systemB|waitAclock:inst22|counter
-Name counter.01 
-counter.00 0 
-counter.01 1 
+State Machine - |systemB|NixieScan:inst8|state
+Name state.S3 state.S2 state.S1 state.00 
+state.00 0 0 0 0 
+state.S1 0 0 1 1 
+state.S2 0 1 0 1 
+state.S3 1 0 0 1 
