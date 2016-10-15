@@ -1,12 +1,12 @@
 module key_scan(CLK,RESET,V1,V2,V3,V4,
-				H1,H2,H3,H4,SRCH,SRCL,DSTH,DSTL,ALU_OP,finish);
+				H1,H2,H3,H4,SRCH,SRCL,DSTH,DSTL,ALU_OP,finish,numberflag,opflag);
 
 //input and output
 input CLK,RESET,V1,V2,V3,V4;
 output H1,H2,H3,H4;
 output [7:0] SRCH,SRCL,DSTH,DSTL;
 output [7:0] ALU_OP;
-output finish;
+output numberflag,finish,opflag;
 
 //reg
 reg [7:0] SRCH,SRCL,DSTH,DSTL;

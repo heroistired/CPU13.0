@@ -1,0 +1,165 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk_div:inst15|clk_out'
+Slack : -154.962
+TNS   : -1030.746
+
+Type  : Slow Model Setup 'ctrlunit:inst3|ALUC[0]'
+Slack : -16.127
+TNS   : -141.917
+
+Type  : Slow Model Setup 'CLK'
+Slack : -9.062
+TNS   : -171.601
+
+Type  : Slow Model Setup 'waitAclock:inst22|clk_out'
+Slack : -8.834
+TNS   : -66.204
+
+Type  : Slow Model Setup 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -4.438
+TNS   : -4.438
+
+Type  : Slow Model Setup 'waitAclock:inst22|counter[0]'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLK'
+Slack : -2.611
+TNS   : -2.611
+
+Type  : Slow Model Hold 'ctrlunit:inst3|ALUC[0]'
+Slack : -1.288
+TNS   : -5.081
+
+Type  : Slow Model Hold 'clk_div:inst15|clk_out'
+Slack : -1.284
+TNS   : -5.628
+
+Type  : Slow Model Hold 'waitAclock:inst22|counter[0]'
+Slack : -1.197
+TNS   : -1.197
+
+Type  : Slow Model Hold 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.593
+TNS   : -0.593
+
+Type  : Slow Model Hold 'waitAclock:inst22|clk_out'
+Slack : 1.758
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -4.316
+TNS   : -4.316
+
+Type  : Slow Model Removal 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.515
+TNS   : -0.515
+
+Type  : Slow Model Minimum Pulse Width 'clk_div:inst15|clk_out'
+Slack : -2.567
+TNS   : -326.874
+
+Type  : Slow Model Minimum Pulse Width 'CLK'
+Slack : -1.941
+TNS   : -53.881
+
+Type  : Slow Model Minimum Pulse Width 'waitAclock:inst22|clk_out'
+Slack : -0.742
+TNS   : -11.872
+
+Type  : Slow Model Minimum Pulse Width 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'ctrlunit:inst3|ALUC[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'waitAclock:inst22|counter[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'clk_div:inst15|clk_out'
+Slack : -47.752
+TNS   : -329.998
+
+Type  : Fast Model Setup 'ctrlunit:inst3|ALUC[0]'
+Slack : -5.361
+TNS   : -46.077
+
+Type  : Fast Model Setup 'waitAclock:inst22|clk_out'
+Slack : -3.229
+TNS   : -24.404
+
+Type  : Fast Model Setup 'CLK'
+Slack : -3.056
+TNS   : -47.299
+
+Type  : Fast Model Setup 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.742
+TNS   : -0.742
+
+Type  : Fast Model Setup 'waitAclock:inst22|counter[0]'
+Slack : 0.488
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLK'
+Slack : -1.413
+TNS   : -1.413
+
+Type  : Fast Model Hold 'clk_div:inst15|clk_out'
+Slack : -0.841
+TNS   : -3.729
+
+Type  : Fast Model Hold 'ctrlunit:inst3|ALUC[0]'
+Slack : -0.630
+TNS   : -3.958
+
+Type  : Fast Model Hold 'waitAclock:inst22|counter[0]'
+Slack : -0.377
+TNS   : -0.377
+
+Type  : Fast Model Hold 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.155
+TNS   : -0.155
+
+Type  : Fast Model Hold 'waitAclock:inst22|clk_out'
+Slack : 0.532
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.793
+TNS   : -0.793
+
+Type  : Fast Model Removal 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : -0.140
+TNS   : -0.140
+
+Type  : Fast Model Minimum Pulse Width 'clk_div:inst15|clk_out'
+Slack : -2.000
+TNS   : -234.536
+
+Type  : Fast Model Minimum Pulse Width 'CLK'
+Slack : -1.380
+TNS   : -36.380
+
+Type  : Fast Model Minimum Pulse Width 'waitAclock:inst22|clk_out'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'lpm_rom_256_16:inst18|altsyncram:altsyncram_component|altsyncram_p641:auto_generated|ram_block1a12~porta_address_reg0'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'ctrlunit:inst3|ALUC[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'waitAclock:inst22|counter[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

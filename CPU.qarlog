@@ -1,0 +1,78 @@
+Quartus II Archive log --	C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.qarlog
+
+Archive:	C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.qar
+Date:		Sat Oct 08 10:52:53 2016
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/ZERO_DETECT.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/alu8.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/lpm_add_sub_8.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/lpm_add_sub_8_C.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/lpm_and_8.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/lpm_compare_8.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/lpm_or_8.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/muxunit.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/myALU.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ALU/zero_convert.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.qpf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.qsf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU_assignment_defaults.qdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/Decoder.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/Flag.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/Flag/Flag.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/IO_PORT.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_bustri0.tdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_decode3_8.tdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_mux8_1.tdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_hold.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_hold.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/Nixie.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/NixieScan.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/Translator.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/clk_div.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/clk_div.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ctrlunit/ctrlunit.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/ctrlunit/ctrlunit.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/db/CPU.sim.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/incremental_db/compiled_partitions/CPU.db_info
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/instrconunit/instrconunit.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/instrconunit/instrconunit.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/key.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/key_scan/key_in.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/key_scan/key_scan.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/keyboard.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/lpm_mux1.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/lpm_mux2.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myram/myram_256_8.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myram/myram_256_8.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myrom/myrom.qip
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myrom/myrom.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myrom/myrom.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/myrom/myrom_bb.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/reg4_8/lpm_decode2_4.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/reg4_8/lpm_dff_8_en.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/reg4_8/lpm_mux2_4_8.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/reg4_8/reg4_8.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/reg4_8/reg4_8.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/lpm_rom_256_16.vhd
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/rom/test.hex
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemA.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemA.hex
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemA.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemB.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemB.hex
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemB.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/systemC.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/test.bdf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/test.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/waitAclock.v
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/waitAclock.vwf
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417haha/cpuModule/IO_PORT/IO_PORT.vwf
+	======= Total: 67 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

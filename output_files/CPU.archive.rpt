@@ -1,0 +1,141 @@
+Archive Project report for CPU
+Sat Oct 08 10:52:54 2016
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sat Oct 08 10:52:54 2016 ;
+; Revision Name          ; CPU                                   ;
+; Top-level Entity Name  ; systemA                               ;
+; Family                 ; Cyclone II                            ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/CPU.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'CPU.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 330 megabytes
+    Info: Processing ended: Sat Oct 08 10:52:54 2016
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                     ;
++----------------------------------------------------------------------------------------------------+
+; File Name                                                                                          ;
++----------------------------------------------------------------------------------------------------+
+; ../../cpuModule_83406417haha/cpuModule/IO_PORT/IO_PORT.vwf                                         ;
+; ALU.vwf                                                                                            ;
+; ALU/alu8.bdf                                                                                       ;
+; ALU/lpm_add_sub_8.vhd                                                                              ;
+; ALU/lpm_add_sub_8_C.vhd                                                                            ;
+; ALU/lpm_and_8.vhd                                                                                  ;
+; ALU/lpm_compare_8.vhd                                                                              ;
+; ALU/lpm_or_8.vhd                                                                                   ;
+; ALU/muxunit.vhd                                                                                    ;
+; ALU/myALU.v                                                                                        ;
+; ALU/zero_convert.vhd                                                                               ;
+; ALU/ZERO_DETECT.vhd                                                                                ;
+; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/key.vwf                   ;
+; C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417haha/cpuModule/IO_PORT/IO_PORT.vwf ;
+; clk_div.v                                                                                          ;
+; clk_div.vwf                                                                                        ;
+; CPU.bdf                                                                                            ;
+; CPU.qpf                                                                                            ;
+; CPU.qsf                                                                                            ;
+; CPU_assignment_defaults.qdf                                                                        ;
+; ctrlunit/ctrlunit.v                                                                                ;
+; ctrlunit/ctrlunit.vwf                                                                              ;
+; db/CPU.sim.vwf                                                                                     ;
+; Decoder.v                                                                                          ;
+; Flag.vwf                                                                                           ;
+; Flag/Flag.v                                                                                        ;
+; incremental_db/compiled_partitions/CPU.db_info                                                     ;
+; instrconunit/instrconunit.v                                                                        ;
+; instrconunit/instrconunit.vwf                                                                      ;
+; IO_hold.v                                                                                          ;
+; IO_hold.vwf                                                                                        ;
+; IO_PORT.vwf                                                                                        ;
+; IO_PORT/IO_PORT.bdf                                                                                ;
+; IO_PORT/lpm_bustri0.tdf                                                                            ;
+; IO_PORT/lpm_decode3_8.tdf                                                                          ;
+; IO_PORT/lpm_mux8_1.tdf                                                                             ;
+; key.vwf                                                                                            ;
+; key_scan/key_in.v                                                                                  ;
+; key_scan/key_scan.v                                                                                ;
+; keyboard.v                                                                                         ;
+; lpm_mux1.v                                                                                         ;
+; lpm_mux2.v                                                                                         ;
+; myram/myram_256_8.v                                                                                ;
+; myram/myram_256_8.vwf                                                                              ;
+; myrom/myrom.qip                                                                                    ;
+; myrom/myrom.v                                                                                      ;
+; myrom/myrom.vwf                                                                                    ;
+; myrom/myrom_bb.v                                                                                   ;
+; Nixie.vwf                                                                                          ;
+; NixieScan.v                                                                                        ;
+; reg4_8/lpm_decode2_4.vhd                                                                           ;
+; reg4_8/lpm_dff_8_en.vhd                                                                            ;
+; reg4_8/lpm_mux2_4_8.vhd                                                                            ;
+; reg4_8/reg4_8.bdf                                                                                  ;
+; reg4_8/reg4_8.vwf                                                                                  ;
+; rom/lpm_rom_256_16.vhd                                                                             ;
+; rom/test.hex                                                                                       ;
+; systemA.bdf                                                                                        ;
+; systemA.hex                                                                                        ;
+; systemA.vwf                                                                                        ;
+; systemB.bdf                                                                                        ;
+; systemB.hex                                                                                        ;
+; systemB.vwf                                                                                        ;
+; systemC.bdf                                                                                        ;
+; test.bdf                                                                                           ;
+; test.vwf                                                                                           ;
+; Translator.v                                                                                       ;
+; waitAclock.v                                                                                       ;
+; waitAclock.vwf                                                                                     ;
++----------------------------------------------------------------------------------------------------+
+
+

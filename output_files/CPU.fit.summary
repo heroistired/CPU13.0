@@ -1,15 +1,15 @@
-Fitter Status : Failed - Wed Oct 05 19:36:02 2016
+Fitter Status : Successful - Thu Oct 06 00:15:13 2016
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : CPU
 Top-level Entity Name : systemB
 Family : Cyclone II
 Device : EP2C5Q208C8
 Timing Models : Final
-Total logic elements : 1,062 / 4,608 ( 23 % )
-    Total combinational functions : 1,033 / 4,608 ( 22 % )
-    Dedicated logic registers : 82 / 4,608 ( 2 % )
-Total registers : 82
-Total pins : 169 / 142 ( 119 % )
+Total logic elements : 1,073 / 4,608 ( 23 % )
+    Total combinational functions : 1,057 / 4,608 ( 23 % )
+    Dedicated logic registers : 100 / 4,608 ( 2 % )
+Total registers : 100
+Total pins : 75 / 142 ( 53 % )
 Total virtual pins : 0
 Total memory bits : 6,144 / 119,808 ( 5 % )
 Embedded Multiplier 9-bit elements : 1 / 26 ( 4 % )

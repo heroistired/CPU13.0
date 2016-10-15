@@ -1,5 +1,5 @@
 
-State Machine - |systemB|NixieScan:inst8|state
+State Machine - |systemC|NixieScan:inst8|state
 Name state.S3 state.S2 state.S1 state.00 
 state.00 0 0 0 0 
 state.S1 0 0 1 1 

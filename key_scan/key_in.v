@@ -77,10 +77,15 @@ always @ (posedge (clk&&pressflag) or negedge RST)
 					8'b00100010:begin key_value=9;fangdou=fangdou+1;if(fangdou==2) begin numberflag=1; fangdou=0;end end
 					8'b10000001:begin key_value=0;fangdou=fangdou+1;if(fangdou==2) begin numberflag=1; fangdou=0;end end
 					8'b01000001:begin equal=1; end
+					//cmp
 					8'b00100001:begin operator=3'b101;fangdou=fangdou+1;if(fangdou==2) begin opflag=1; fangdou=0;end end
+					//add
 					8'b00011000:begin operator=3'b001;fangdou=fangdou+1;if(fangdou==2) begin opflag=1; fangdou=0;end end
+					//minus
 					8'b00010100:begin operator=3'b010;fangdou=fangdou+1;if(fangdou==2) begin opflag=1; fangdou=0;end end
+					//and
 					8'b00010010:begin operator=3'b011;fangdou=fangdou+1;if(fangdou==2) begin opflag=1; fangdou=0;end end
+					//or
 					8'b00010001:begin operator=3'b100;fangdou=fangdou+1;if(fangdou==2) begin opflag=1; fangdou=0;end end
 				endcase
 			end

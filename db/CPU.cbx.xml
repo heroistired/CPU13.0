@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CPU">
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|IO_PORT:inst5|lpm_decode3_8:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_3rf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|IO_PORT:inst5|lpm_mux8_1:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_4nc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|lpm_mux1:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|lpm_rom_256_16:inst18|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_p641.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|reg4_8:inst14|lpm_mux2_4_8:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vmc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|Decoder:inst2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tfm.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|lpm_mux1:inst12|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|lpm_mux2:inst20|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_mmc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|myALU:inst|lpm_mult:Mult0" CBX_FILE_NAME="mult_o5t.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|reg4_8:inst14|lpm_mux2_4_8:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vmc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|Decoder:inst2|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_hem.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|reg4_8:inst14|lpm_decode2_4:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_uqf.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|Decoder:inst2|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|lpm_mux1:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|systemB|myram_256_8:inst16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_r4a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|Decoder:inst2|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_eem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|lpm_mux1:inst10|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|myram_256_8:inst16|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_r4a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|IO_PORT:inst5|lpm_decode3_8:inst15|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_3rf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|IO_PORT:inst5|lpm_mux8_1:inst33|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_4nc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|lpm_mux1:inst11|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|lpm_rom_256_16:inst18|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_q641.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|reg4_8:inst14|lpm_mux2_4_8:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|Decoder:inst2|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_tfm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|lpm_mux1:inst12|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|lpm_mux2:inst20|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_mmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|myALU:inst|lpm_mult:Mult0" CBX_FILE_NAME="mult_o5t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|reg4_8:inst14|lpm_mux2_4_8:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|Decoder:inst2|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_hem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|systemC|reg4_8:inst14|lpm_decode2_4:inst|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_uqf.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

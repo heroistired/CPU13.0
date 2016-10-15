@@ -1,5 +1,5 @@
 EDA Netlist Writer report for CPU
-Wed Oct 05 18:37:30 2016
+Sat Oct 15 15:27:33 2016
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Oct 05 18:37:30 2016 ;
+; EDA Netlist Writer Status ; Successful - Sat Oct 15 15:27:33 2016 ;
 ; Revision Name             ; CPU                                   ;
-; Top-level Entity Name     ; NixieScan                             ;
+; Top-level Entity Name     ; systemC                               ;
 ; Family                    ; Cyclone II                            ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -80,14 +80,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Oct 05 18:37:29 2016
+    Info: Processing started: Sat Oct 15 15:27:33 2016
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog CPU -c CPU
-Info (119004): Automatically selected device EP2C5T144C6 for design CPU
+Info (119006): Selected device EP2C5Q208C8 for design "CPU"
 Info (204019): Generated file CPU.vo in folder "C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 389 megabytes
-    Info: Processing ended: Wed Oct 05 18:37:30 2016
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 394 megabytes
+    Info: Processing ended: Sat Oct 15 15:27:33 2016
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

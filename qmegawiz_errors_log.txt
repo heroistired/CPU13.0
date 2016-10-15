@@ -4,3 +4,18 @@ C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT
 
 Sep 24 10AM:28:33>: Megafunction LPM_BUSTRI is not listed in any 
 wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_bustri0.tdf
+
+Oct 10 11AM:01:41>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_bustri0.tdf
+
+Oct 10 11AM:01:42>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/Users/heroistired/Documents/Git/Simple CPU/cpuModule_83406417/CPU13.0/IO_PORT/lpm_bustri0.tdf
+
+Oct 10 11AM:19:48>: Megafunction LPM_BUSTRI is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
